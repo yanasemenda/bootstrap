@@ -1,0 +1,23 @@
+.basic-icons {
+	
+	margin: 0 auto;
+	background-color: blue;
+}
+.icons {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	background-color: red;
+}
+svg {
+	width: 150px;
+	height: 150px;
+}
+
+.icons:hover::after { 
+ content: attr(data-title);
+
+}
+p {
+	content: "";
+}
